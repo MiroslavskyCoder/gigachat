@@ -4,13 +4,23 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "@rollup/plugin-json": "^6.1.0",
     "@types/node": "^22.8.6",
+    "@types/uuid4": "^2.0.3",
     "rollup": "^4.24.3",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-sourcemaps": "^0.6.3",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "rollup-plugin-uglify-es": "^0.0.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.3"
   },
   "dependencies": {
+    "@babel/core": "^7.26.0",
     "axios": "^1.7.7",
-    "form-data": "^4.0.1"
+    "form-data": "^4.0.1",
+    "uuid4": "^2.0.3"
   }
 }
